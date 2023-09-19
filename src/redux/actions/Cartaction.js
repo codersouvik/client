@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as actionTypes from  '../constants/Cartconstant'
 
-const URL='https://ecommerce-backend-1x5a.onrender.com';
+const URL='';
 export const addtoCart=(id,quantity)=>async (dispatch)=>{
    try{
        const {data}= await axios.get(`${URL}/product/${id}`);

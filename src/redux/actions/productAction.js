@@ -4,7 +4,7 @@
 import * as actionTypes from '../constants/productConstant';
 import axios from 'axios';
 
-const URL='https://ecommerce-backend-1x5a.onrender.com';
+const URL='';
 
 export const getProducts = () => async (dispatch) => {
     try {
